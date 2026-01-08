@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>YKZ STORE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="theme-dark">
+
+<header>
+  <img src="https://i.imgur.com/yQUxMEZ.jpeg" class="logo">
+
+  <div class="themes">
+    <button class="theme-btn" onclick="setTheme('light')">☀️</button>
+    <button class="theme-btn" onclick="setTheme('dark')">🌙</button>
+    <button class="theme-btn" onclick="setTheme('rose')">🌸</button>
+    <button class="theme-btn" onclick="setTheme('marine')">🌊</button>
+  </div>
+</header>
+
+<section class="nick">
+  <input id="nick" placeholder="✨ Seu nick no Minecraft ✨">
+</section>
+
+<div class="category">
+  <button class="cat-toggle" onclick="toggleCat(this)">📘 Encantamentos</button>
+  <div class="cat-content open" id="encantamentos"></div>
+</div>
+
+<div class="category">
+  <button class="cat-toggle" onclick="toggleCat(this)">💎 Itens de Diamante</button>
+  <div class="cat-content open" id="itens"></div>
+</div>
+
+<footer id="cart">
+  <p>Carrinho 🛒</p>
+
+  <div id="cartList"></div>
+
+  <input id="cupom" placeholder="🎟 Cupom VIP10">
+  <button class="cute-btn" onclick="applyCoupon()">Aplicar cupom</button>
+
+  <div class="total">💰 Total: <span id="total">0</span></div>
+  <button class="buy" onclick="buy()">🛒 Comprar</button>
+</footer>
+
+<canvas id="particles"></canvas>
+<script src="script.js"></script>
+</body>
+</html>
