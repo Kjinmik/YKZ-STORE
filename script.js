@@ -2,34 +2,13 @@ const enchantImg="https://i.imgur.com/PEvL7hw.png";
 const diamondImg="https://i.imgur.com/1S5YNGM.png";
 
 const enchantments=[
- ["Remendo",10000],
- ["Inquebrável III",10000],
- ["Peso Pena IV",4000],
- ["Proteção IV",10000],
- ["Eficiência V",6000],
- ["Afiação V",6000],
- ["Empalamento III",3000],
- ["Toque Suave",5000],
- ["Chama",3000],
- ["Saque III",4000],
- ["Aspecto Flamejante III",3000],
- ["Ruína dos Artrópodes I",1000],
- ["Fortuna III",7000],
- ["Densidade V",6000]
+ ["Eficiencia V",5000],
+ ["Inquebrável III",10000]
 ];
 
 const items=[
- ["Armadura de Diamante",4000],
- ["Capacete de Diamante",1000],
- ["Peitoral de Diamante",1000],
- ["Calça de Diamante",1000],
- ["Bota de Diamante",1000],
- ["Espada de Diamante",1000],
- ["Machado de Diamante",1000],
- ["Pá de Diamante",1000],
- ["Picareta de Diamante",1000],
- ["Enxada de Diamante",1000],
- ["Ferramentas",5000]
+ ["64 Esmeraldas",6400],
+ ["Totem Da Imortalidade",3500].
 ];
 
 const cart={};
